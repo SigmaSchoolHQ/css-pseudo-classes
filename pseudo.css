@@ -30,3 +30,23 @@ nav {
 .nav {
 	background-color: blue;
 }
+
+/* 1st & last children  */
+.first-last-children > p:first-child {
+	color: magenta;
+}
+.first-last-children > p:last-child {
+	color: midnightblue;
+}
+
+body section:last-child {
+	background-color: powderblue;
+}
+
+/* 1st & last of type  */
+:root section:first-of-type {
+	background-color: mediumpurple;
+}
+:root section:last-of-type {
+	background-color: mediumorchid;
+}
