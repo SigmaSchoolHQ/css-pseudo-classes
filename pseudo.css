@@ -1,0 +1,32 @@
+.nav__links--link:hover:visited {
+	color: yellow;
+}
+.nav__links--link:hover:link {
+	color: magenta;
+}
+
+.nav__links--link:visited {
+	color: mediumpurple;
+}
+
+/* root  */
+:root {
+	background-color: #777;
+}
+
+html {
+	background-color: #333;
+}
+
+/* specificity */
+#nav {
+	background-color: purple;
+}
+
+nav {
+	background-color: yellow;
+}
+
+.nav {
+	background-color: blue;
+}
