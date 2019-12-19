@@ -44,9 +44,24 @@ body section:last-child {
 }
 
 /* 1st & last of type  */
-:root section:first-of-type {
-	background-color: mediumpurple;
+.container > *:first-of-type {
+	border: 3px solid black;
 }
-:root section:last-of-type {
+
+section:last-of-type {
 	background-color: mediumorchid;
+}
+
+nav li:last-of-type {
+	padding-right: 50px;
+	text-transform: uppercase;
+}
+
+/* nth child & nth of type  */
+.general-sibling--paragraphs > p:nth-child(2) {
+	background-color: darkviolet;
+}
+
+.general-sibling--paragraphs > p:nth-child(2n + 1) {
+	background-color: dodgerblue;
 }
