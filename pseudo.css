@@ -62,6 +62,13 @@ nav li:last-of-type {
 	background-color: darkviolet;
 }
 
-.general-sibling--paragraphs > p:nth-child(2n + 1) {
+.general-sibling--paragraphs > p:nth-child(3n + 2) {
 	background-color: dodgerblue;
+}
+
+/* even & odd */
+.general-sibling--paragraphs > p:nth-child(odd) {
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
 }
