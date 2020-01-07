@@ -1,3 +1,4 @@
+/* ========== hover, visited & link ========== */
 .nav__links--link:hover:visited {
 	color: yellow;
 }
@@ -9,7 +10,7 @@
 	color: mediumpurple;
 }
 
-/* root  */
+/* ========== root ========== */
 :root {
 	background-color: #777;
 }
@@ -31,7 +32,7 @@ nav {
 	background-color: blue;
 }
 
-/* 1st & last children  */
+/* ========== first & last children ========== */
 .first-last-children > p:first-child {
 	color: magenta;
 }
@@ -43,7 +44,7 @@ body section:last-child {
 	background-color: powderblue;
 }
 
-/* 1st & last of type  */
+/* ========== first & last of type ========== */
 .container > *:first-of-type {
 	border: 3px solid black;
 }
@@ -57,7 +58,7 @@ nav li:last-of-type {
 	text-transform: uppercase;
 }
 
-/* nth child & nth of type  */
+/* ========== nth child & nth of type ==========  */
 .general-sibling--paragraphs > p:nth-child(2) {
 	background-color: darkviolet;
 }
@@ -66,13 +67,14 @@ nav li:last-of-type {
 	background-color: dodgerblue;
 }
 
-/* even & odd */
+/* ========== even & odd ========== */
 .general-sibling--paragraphs > p:nth-child(odd) {
 	color: white;
 	font-weight: bold;
 	text-transform: uppercase;
 }
 
+/* ========== UI state pseudo-classes ========== */
 input:disabled::placeholder {
 	opacity: 0.3;
 	color: red;
@@ -86,3 +88,7 @@ input:disabled::placeholder {
 :required::placeholder {
 	text-transform: uppercase;
 }
+
+/* == 
+:not() - go to https://codepen.io/SigmaSchoolHQ/pen/xxbpJZz
+== */
