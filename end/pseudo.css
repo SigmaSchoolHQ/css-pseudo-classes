@@ -1,16 +1,16 @@
-/* ========== hover, visited & link ========== */
-.nav__links--link:hover:visited {
+/* hover, visited & link */
+.nav__link:hover:visited {
 	color: yellow;
 }
-.nav__links--link:hover:link {
+.nav__link:hover:link {
 	color: magenta;
 }
 
-.nav__links--link:visited {
+.nav__link:visited {
 	color: mediumpurple;
 }
 
-/* ========== root ========== */
+/* root */
 :root {
 	background-color: #777;
 }
@@ -32,7 +32,7 @@ nav {
 	background-color: blue;
 }
 
-/* ========== first & last children ========== */
+/* first & last children */
 .first-last-children > p:first-child {
 	color: magenta;
 }
@@ -41,7 +41,7 @@ nav {
 	color: midnightblue;
 }
 
-/* ========== first & last of type ========== */
+/* first & last of type */
 .container > *:first-of-type {
 	border: 1px solid #000;
 }
@@ -55,7 +55,7 @@ li:last-of-type {
 	text-transform: uppercase;
 }
 
-/* ========== nth child & nth of type ==========  */
+/* nth child & nth of type  */
 .general-sibling--paragraphs > p:nth-child(7) {
 	background-color: darkviolet;
 }
@@ -64,14 +64,14 @@ li:last-of-type {
 	background-color: dodgerblue;
 }
 
-/* ========== even & odd ========== */
+/* even & odd */
 .general-sibling > p:nth-child(odd) {
 	color: white;
 	font-weight: bold;
 	text-transform: uppercase;
 }
 
-/* ========== UI state pseudo-classes ========== */
+/* UI state pseudo-classes */
 input:disabled::placeholder {
 	opacity: 0.3;
 	color: red;

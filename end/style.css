@@ -85,7 +85,7 @@ nav {
 	justify-content: space-evenly;
 }
 
-.nav__links > ul > li > a {
+.nav__link {
 	text-decoration: none;
 	color: #eee;
 	margin: 0 2rem;
