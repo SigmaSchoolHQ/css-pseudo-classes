@@ -36,30 +36,27 @@ nav {
 .first-last-children > p:first-child {
 	color: magenta;
 }
+
 .first-last-children > p:last-child {
 	color: midnightblue;
 }
 
-body section:last-child {
-	background-color: powderblue;
-}
-
 /* ========== first & last of type ========== */
 .container > *:first-of-type {
-	border: 3px solid black;
+	border: 1px solid #000;
 }
 
 section:last-of-type {
 	background-color: mediumorchid;
 }
 
-nav li:last-of-type {
+li:last-of-type {
 	padding-right: 50px;
 	text-transform: uppercase;
 }
 
 /* ========== nth child & nth of type ==========  */
-.general-sibling--paragraphs > p:nth-child(2) {
+.general-sibling--paragraphs > p:nth-child(7) {
 	background-color: darkviolet;
 }
 
@@ -68,7 +65,7 @@ nav li:last-of-type {
 }
 
 /* ========== even & odd ========== */
-.general-sibling--paragraphs > p:nth-child(odd) {
+.general-sibling > p:nth-child(odd) {
 	color: white;
 	font-weight: bold;
 	text-transform: uppercase;
